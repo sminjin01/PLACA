@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400">
+    <title>PLACA</title>
+    <link href="css/flickity-docs.css" rel="stylesheet" type="text/css">
+    <script src="js/flickity-docs.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon.png">
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- 너비/가운데 -->
+        <!-- top_s -->
+        <div id="top_wrap">
+            <!-- 너비/가운데/높이50/배경색 -->
+            <div class="top">
+                <h1 class="top_logo"><a href="./index.html"><img src="./image/top_logo.png" alt="logo"></a></h1>
+            </div>
+        </div>
+        <!-- top_e -->
+        <!-- header_s -->
+        <div id="header_wrap">
+            <!-- 너비/가운데/높이100 -->
+            <div class="header">
+                <h1 class="logo"><a href="./index.html"><img src="./image/logo.PNG" alt="logo"></a></h1>
+                <ul class="gnb">
+                    <li><a href="#story1_wrap">STORY<div class="solid"></div></a></li>
+                    <li><a href="#product_wrap">PRODUCT<div class="solid"></div></a></li>
+                    <li><a href="#spot_banner_wrap">SPOT<div class="solid"></div></a></li>
+                    <li><a href="#academy_wrap">ACADEMY<div class="solid"></div></a></li>
+                    <li><a href="#event_wrap">EVENT<div class="solid"></div></a></li>
+                </ul>
+                <ul class="ico">
+                    <li><a href="javascript:return false;"><img src="./image/ico_search.png" alt="search"></a></li>
+                    <li><a href="javascript:return false;"><img src="./image/ico_cart.png" alt="cart"></a></li>
+                    <li><a href="javascript:return false;"><img src="./image/ico_member.png" alt="member"></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- header_e -->
+        <!-- banner_s -->
+        <div id="banner_wrap">
+            <div class="banner">
+                <div class="carousel main-carousel main_banner">
+                    <div class="carousel-cell">
+                        <a href="javascript:return false;">
+                            <img src="./image/banner2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="carousel-cell">
+                        <a href="javascript:return false;">
+                            <img src="./image/banner3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="carousel-cell">
+                        <a href="javascript:return false;">
+                            <img src="./image/banner1.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner_e -->
+        <!-- story1_s -->
+        <div id="story1_wrap">
+            <div class="story1">
+
+            </div>
+        </div>
+        <!-- story1_e -->
+        <!-- story2_s -->
+        <div id="story2_wrap">
+            <div class="story2">
+                <img class="history_title" src="./image/history_title.png" alt="history_title">
+                <section class="scroll_section">
+                    <img src="./image/history_bg1.png" alt="배경이미지" class="bg_image" />
+                    <img src="./image/history_bg2.png" alt="효과이미지" class="effect_image" />
+                </section>
+                <img class="history_text" src="./image/history_text.png" alt="history_text">
+                <img class="global" src="./image/global.png" alt="global">
+            </div>
+        </div>
+        <!-- story2_e -->
+        <!-- product_S -->
+        <div id="product_wrap">
+            <div class="product">
+                <img class="product_title" src="./image/product.png" alt="product">
+            </div>
+        </div>
+        <!-- product_e -->
+        <!-- new_s -->
+        <div id="new_wrap">
+            <div class="new">
+                <img class="new_title" src="./image/new_title.png" alt="new_title">
+                <div class="new_container">
+                    <div class="mySlides">
+                        <div class="numbertext">Busan Package</div>
+                        <img src="./image/new_main.png" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 5</div>
+                        <img src="./image/new_1_bg.png" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 5</div>
+                        <img src="./image/new_2_bg.png" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 5</div>
+                        <img src="./image/new_3_bg.png" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="./image/new_4_bg.png" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="./image/new_5_bg.png" style="width:100%">
+                    </div>
+
+                    <a class="new_prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="new_next" onclick="plusSlides(1)">❯</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="./image/new1.png" style="width:100%"
+                                onclick="currentSlide(2)" alt="한정판 부산 일회용 필름카메라">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./image/new2.png" style="width:100%" onclick="currentSlide(3)"
+                                alt="한정판 부산 마그넷">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./image/new3.png" style="width:100%" onclick="currentSlide(4)"
+                                alt="플래카 카메라 가방">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./image/new4.png" style="width:100%" onclick="currentSlide(5)"
+                                alt="한정판 부산 스티커">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./image/new5.png" style="width:100%" onclick="currentSlide(6)"
+                                alt="플래카 카메라 스트랩">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- new_e -->
+        <!-- best_s -->
+        <div id="best_wrap">
+            <div class="best">
+                <img class="best_title" src="./image/best_title.png" alt="best_title">
+                <div class="best_product_area">
+                    <div class="best_1_wrap">
+                        <div class="product_hover_wrap">
+                        <img id="best_1" src="./image/best_pink.png" alt="best_pink" class="best_1_main">
+                        <div class="product_overlay">
+                            <span class="overlay_text">상품 자세히 보기</span>
+                          </div>
+                        </div>
+                        <img class="best_1_title" src="./image/best_1_title.png" alt="best_1_title">
+                    </div>    
+                        <div class="color-options">
+                            <img src="./image/btn_yellow.png" alt="yellow" data-img="image/best_yellow.png"
+                                class="color-thumb">
+                            <img src="./image/btn_blue.png" alt="blue" data-img="image/best_blue.png"
+                                class="color-thumb">
+                            <img src="./image/btn_purple.png" alt="purple" data-img="image/best_purple.png"
+                                class="color-thumb">
+                            <img src="./image/btn_pink.png" alt="pink" data-img="image/best_pink.png"
+                                class="color-thumb">
+                            <img src="./image/btn_black.png" alt="black" data-img="image/best_black.png"
+                                class="color-thumb">
+                        </div>
+                    
+                    <div class="best_others">
+                        <div class="best_2">
+                            <div class="product_hover_wrap">
+                            <img class="best_2" src="./image/best_2.png" alt="best_2">
+                            <div class="product_overlay">
+                                <span class="overlay_text">상품 자세히 보기</span>
+                              </div>  
+                        </div>  
+                          <img class="best_2_title" src="./image/best_2_title.png" alt="best_2_title">
+                        
+                    </div>
+                        <div class="best_3">
+                            <div class="product_hover_wrap">
+                            <img class="best_3" src="./image/best_3.png" alt="best_3">
+                            <div class="product_overlay">
+                                <span class="overlay_text">상품 자세히 보기</span>
+                              </div>
+                            </div>
+                            <img class="best_3_title" src="./image/best_3_title.png" alt="best_2_title">
+                        </div>
+                        <div class="best_4">
+                            <div class="product_hover_wrap">
+                            <img class="best_4" src="./image/best_4.png" alt="best_4">
+                            <div class="product_overlay">
+                                <span class="overlay_text">상품 자세히 보기</span>
+                              </div>
+                            </div>
+                            <img class="best_4_title" src="./image/best_4_title.png" alt="best_2_title">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- best_e -->
+        <!-- spot_banner_s -->
+        <div id="spot_banner_wrap">
+            <div class="spot_banner">
+                <img class="spot_banner_text" src="./image/spot_banner_text.png" alt="spot_banner_text">
+            </div>
+        </div>
+        <!-- spot_banner_e -->
+        <!-- spot_s -->
+        <div id="spot_wrap">
+            <div class="spot">
+                <img class="spot_title" src="./image/spot.png" alt="spot">
+                <ul class="spot_list">
+                    <li><a href="javascript:return false;">제주</a></li>
+                    <li><a href="javascript:return false;">부산</a></li>
+                    <li><a href="javascript:return false;">?</a></li>
+                </ul>
+                <div class="tab">
+                    <div class="tab_menu">
+                        <ul class="list">
+                            <li class="is_on">
+                                <a href="#tab1" class="btn">#명소</a>
+                            </li>
+                            <li>
+                                <a href="#tab2" class="btn">#축제</a>
+                            </li>
+                            <li>
+                                <a href="#tab3" class="btn">#감성</a>
+                            </li>
+                            <li>
+                                <a href="#tab4" class="btn">#야경</a>
+                            </li>
+                            <li>
+                                <a href="#tab5" class="btn">#나들이</a>
+                            </li>
+                            <li>
+                                <a href="#tab6" class="btn">#레트로</a>
+                            </li>
+                        </ul>
+
+                        <div class="cont_area">
+                            <div id="tab1" class="cont" style="display: block;">
+                                <div class="img_wrap">
+                                    <img src="./image/list1_1.png" alt="list1_1">
+                                    <img src="./image/list1_2.png" alt="list1_2">
+                                    <img src="./image/list1_3.png" alt="list1_3">
+                                </div>
+                            </div>
+                            <div id="tab2" class="cont" style="display: none;">
+                                <div class="img_wrap">
+                                    <img src="./image/list2_2.png" alt="list1_1">
+                                    <img src="./image/list1_3.png" alt="list1_2">
+                                    <img src="./image/list1_1.png" alt="list1_3">
+                                </div>
+                            </div>
+                            <div id="tab3" class="cont" style="display: none;">
+                                <div class="img_wrap">
+                                    <img src="./image/list6_3.png" alt="list1_1">
+                                    <img src="./image/list2_2.png" alt="list1_2">
+                                    <img src="./image/list2_3.png" alt="list1_3">
+                                </div>
+                            </div>
+                            <div id="tab4" class="cont" style="display: none;">
+                                <div class="img_wrap">
+                                    <img src="./image/list2_1.png" alt="list1_1">
+                                    <img src="./image/list1_2.png" alt="list1_2">
+                                    <img src="./image/list2_3.png" alt="list1_3">
+                                </div>
+                            </div>
+                            <div id="tab5" class="cont" style="display: none;">
+                                <div class="img_wrap">
+                                    <img src="./image/list6_2.png" alt="list1_1">
+                                    <img src="./image/list2_1.png" alt="list1_2">
+                                    <img src="./image/list1_3.png" alt="list1_3">
+                                </div>
+                            </div>
+                            <div id="tab6" class="cont" style="display: none;">
+                                <div class="img_wrap">
+                                    <img src="./image/list6_1.png" alt="list6_1">
+                                    <img src="./image/list6_2.png" alt="list6_2">
+                                    <img src="./image/list6_3.png" alt="list6_3">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- spot_e -->
+    <!-- winner_s -->
+    <div id="winner_wrap">
+        <div class="winner">
+            <img class="winner_title" src="./image/winner_title.png" alt="winner_title">
+            <ul class="win">
+                <li>
+                    <div class="win_img_box"><img src="./image/winner1.png" alt="winner1"></div>
+                    <a href="javascript:return false;">
+                        <div class="win_cover">
+                            <p>수상자 작품 사진 더 보기</p>
+                    </a>
+        </div>
+        </li>
+        <li>
+            <div class="win_img_box"><img src="./image/winner2.png" alt="winner2"></div>
+            <a href="javascript:return false;">
+                <div class="win_cover">
+                    <p>수상자 작품 사진 더 보기</p>
+            </a>
+    </div>
+    </li>
+    <li>
+        <div class="win_img_box"><img src="./image/winner3.png" alt="winner3"></div>
+        <a href="javascript:return false;">
+            <div class="win_cover">
+                <p>수상자 작품 사진 더 보기</p>
+        </a>
+        </div>
+    </li>
+    </ul>
+    <ul class="win_text">
+        <li>
+            <img src="./image/win1_text.png" alt="win1_text">
+        </li>
+        <li>
+            <img src="./image/win2_text.png" alt="win2_text">
+        </li>
+        <li>
+            <img src="./image/win3_text.png" alt="win3_text">
+        </li>
+    </ul>
+    </div>
+    </div>
+    <!-- jeju_e -->
+    <!-- stamp_s -->
+    <div id="stamp_wrap">
+        <div class="stamp">
+            <img src="./image/stamp.png" alt="stamp">
+        </div>
+    </div>
+    <!-- stamp_e -->
+    <!-- stamp_banner_s -->
+    <div id="stamp_banner_wrap">
+        <div class="stamp_banner">
+            <div class="stamp_banner_text">
+                <p>PLACA SPOT STAMP TOUR RIGHT NOW</p>
+                <p>PLACA SPOT STAMP TOUR RIGHT NOW</p>
+                <p>PLACA SPOT STAMP TOUR RIGHT NOW</p>
+                <p>PLACA SPOT STAMP TOUR RIGHT NOW</p>
+                <p>PLACA SPOT STAMP TOUR RIGHT NOW</p>
+            </div>
+        </div>
+    </div>
+    <!-- stamp_banner_e -->
+    <!-- academy_s -->
+    <div id="academy_wrap">
+        <div class="academy">
+            <img class="academy_title" src="./image/academy_title.png" alt="academy_title">
+            <img class="academy_banner" src="./image/academy_banner.png" alt="academy_banner">
+            <img class="academy_list_title" src="./image/academy_list_title.png" alt="academy_list_title">
+            <!-- date_s -->
+            <div id="date">
+                <table class="Calendar">
+                    <thead>
+                        <tr>
+                            <td onClick="prevCalendar();" style="cursor:pointer;">
+                                <!-- &#60; -->
+                                <!-- <img src="images/left.png" alt="left"> -->
+                            </td>
+                            <td colspan="5">
+                                <span id="calYear"></span>년
+                                <span id="calMonth"></span>월
+                            </td>
+                            <!-- <td onClick="prevCalendar();" style="cursor:pointer;">
+                                    <img src="./image/left.png" alt="left">
+                                </td> -->
+                            <td onClick="nextCalendar();" style="cursor:pointer;">
+                                <!-- > 특수문자 -> &#62; -->
+                                <img src="./image/right.png" alt="right">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>일</td>
+                            <td>월</td>
+                            <td>화</td>
+                            <td>수</td>
+                            <td>목</td>
+                            <td>금</td>
+                            <td>토</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <!-- date_e -->
+            <div class="academy_list">
+                <a href="javascript:return false;"><img src="./image/academy_list.png" alt="academy_list"></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- academy_e -->
+    <!-- gallery_s -->
+    <div id="gallery_wrap">
+        <div class="gallery">
+            <div class="gallery_inner">
+                <img class="gallery_title" src="./image/gallery_title.png" alt="gallery_title">
+            </div>
+            <div id="gallery_slide">
+                <div class="gallery_slide_inner">
+                    <ul>
+                        <li><a href="javascript:return false;"><img src="./image/gallery1.png" alt="gallery1"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery2.png" alt="gallery2"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery3.png" alt="gallery3"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery4.png" alt="gallery4"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery5.png" alt="gallery5"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery6.png" alt="gallery6"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery7.png" alt="gallery7"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery1.png" alt="gallery1"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery2.png" alt="gallery2"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery3.png" alt="gallery3"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery4.png" alt="gallery4"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery5.png" alt="gallery5"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery6.png" alt="gallery6"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery7.png" alt="gallery7"></a></li>
+                    </ul>
+                </div>
+                <div class="gallery_slide_inner_2">
+                    <ul>
+                        <li><a href="javascript:return false;"><img src="./image/gallery8.png" alt="gallery8"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery9.png" alt="gallery9"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery10.png" alt="gallery10"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery11.png" alt="gallery11"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery12.png" alt="gallery12"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery13.png" alt="gallery13"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery14.png" alt="gallery14"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery8.png" alt="gallery8"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery9.png" alt="gallery9"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery10.png" alt="gallery10"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery11.png" alt="gallery11"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery12.png" alt="gallery12"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery13.png" alt="gallery13"></a></li>
+                        <li><a href="javascript:return false;"><img src="./image/gallery14.png" alt="gallery14"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery_e -->
+    <!-- event_s -->
+    <div id="event_wrap">
+        <div class="event">
+            <img class="event_title" src="./image/event_title.png" alt="event_title">
+
+            <div class="wrapper">
+                <!-- 탭 버튼 영역 -->
+                <div class="tab_wrap">
+                    <ul class="event_tabs">
+                        <li class="is_on"><a href="#event1" class="btn">진행중 이벤트</a></li>
+                        <li><a href="#event2" class="btn">종료된 이벤트</a></li>
+                    </ul>
+                </div>
+
+                <!-- 이벤트 이미지 영역 -->
+                <div class="event_contents">
+                    <div id="event1" class="event_item">
+                        <a href="javascript:return false;">
+                            <img src="./image/ing1.png" alt="진행중 이벤트 1">
+                            <div class="overlay">
+                                <p>자세히 보기</p>
+                            </div>
+                        </a>
+                        <a href="javascript:return false;">
+                            <img src="./image/ing2.png" alt="진행중 이벤트 2">
+                            <div class="overlay">
+                                <p>자세히 보기</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="event2" class="event_item" style="display: none;">
+                        <a href="javascript:return false;">
+                            <img src="./image/end1.png" alt="종료된 이벤트 1">
+                            <div class="overlay">
+                                <p>자세히 보기</p>
+                            </div>
+                        </a>
+                        <a href="javascript:return false;">
+                            <img src="./image/end2.png" alt="종료된 이벤트 2">
+                            <div class="overlay">
+                                <p>자세히 보기</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 이미지 클릭시 뜨는 팝업창 -->
+            <div id="popup" style="display:none;">
+                <div class="popup_content">
+                    <button class="popup_close">&times;</button>
+                    <img src="" alt="팝업 이미지" id="popup_img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- event_e -->
+    <!-- footer_s -->
+    <div id="footer_wrap">
+        <div class="footer">
+            <a href="javascript:return false;"><img class="footer_menu" src="./image/footer_menu.png" alt="footer_menu"></a>
+            <ul class="footer_ico">
+                <li><a href="javascript:return false;"><img src="./image/footer_ico1.png" alt=""></a></li>
+                <li><a href="javascript:return false;"><img src="./image/footer_ico2.png" alt=""></a></li>
+                <li><a href="javascript:return false;"><img src="./image/footer_ico3.png" alt=""></a></li>
+                <li><a href="javascript:return false;"><img src="./image/footer_ico4.png" alt=""></a></li>
+                <li><a href="javascript:return false;"><img src="./image/footer_ico5.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- footer_e -->
+    </div>
+</body>
+<script src="./js/jquery-3.7.1.min.js"></script>
+<script src="./js/script.js"></script>
+
+</html>
